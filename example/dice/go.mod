@@ -19,17 +19,3 @@ require (
 	go.opentelemetry.io/otel/trace v1.25.0 // indirect
 	golang.org/x/sys v0.19.0 // indirect
 )
-
-replace go.opentelemetry.io/otel/exporters/stdout/stdouttrace => ../../exporters/stdout/stdouttrace
-
-replace go.opentelemetry.io/otel/exporters/stdout/stdoutmetric => ../../exporters/stdout/stdoutmetric
-
-replace go.opentelemetry.io/otel => ../..
-
-replace go.opentelemetry.io/otel/trace => ../../trace
-
-replace go.opentelemetry.io/otel/metric => ../../metric
-
-replace go.opentelemetry.io/otel/sdk/metric => ../../sdk/metric
-
-replace go.opentelemetry.io/otel/sdk => ../../sdk
